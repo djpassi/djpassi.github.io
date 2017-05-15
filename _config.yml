@@ -1,13 +1,13 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Diego Passi
+bio: Software Engineer student. Santiago, Chile.
 
 # twitter summary info
 description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: true
+external-image: false
 picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://www.dpassi.cl
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -29,41 +29,35 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+# disqus:
+#   shortname: mydisqus # enter this from your disqus account
+#   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: diego.passi
+twitter: dpassi
 # google: mygoogle
-# instagram: myinstagram
+instagram: dpassi
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: diego-passi-riumalló-5a507875
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: djpassi
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: djpassi@uc.cl
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    dpassi:
+        name: Diego Passi
+        bio: Software Engineer student. Santiago, Chile.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: dpassi
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -75,20 +69,20 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+#projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+#about: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+#read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+#show-tags: true
 
 # related posts inside a post?
-related: true
+#related: true
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
